@@ -10,10 +10,13 @@ gem 'thin'
 gem 'shotgun'
 gem 'pry'
 gem 'require_all'
+gem 'sinatra-activerecord'
 
-group :test do
+group :developent do
   gem 'rspec'
   gem 'capybara'
   gem 'rack-test'
   gem 'poltergeist'
+  gem 'tux'
+  gem 'sqlite3', '~> 1.4'
 end
